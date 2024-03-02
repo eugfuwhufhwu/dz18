@@ -109,7 +109,6 @@ patchBtn.addEventListener('click', async e => {
 	}
 })
 
-// удалить продукт
 deleteBtn.addEventListener('click', async e => {
 	e.preventDefault()
 	const id = prompt('введите id')
